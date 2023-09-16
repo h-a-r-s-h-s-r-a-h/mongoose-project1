@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import Blog from "./model/Blog.js";
 import Login from "./model/login.js";
 
-mongoose.connect("mongodb+srv://harsh:harsh@harsh.2uxfgjs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://<user_name>:<cluster_name>@<password>.2uxfgjs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 var myTitle = 'Awesome Post!';
 
